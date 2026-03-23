@@ -17,3 +17,28 @@ Power BI Desktop · Excel · DAX · Power Query
 
 ## 👤 Author
 **Sameer** — BCA Student, Uttar Pradesh, India
+EduCart – E-Commerce Order Management System
+
+
+A MySQL project simulating a real-world e-commerce backend with orders, products, sellers, payments and reviews.
+Database Schema
+8 tables with proper relationships:
+customers → orders → order_items → products → categories
+                ↓                      ↓
+           payments               sellers
+               reviews ← customers + products
+Files
+File
+Description
+EduCart_Ecommerce.sql
+Full SQL — schema, data, queries
+screenshot1.png
+Best-selling products query output
+screenshot2.png
+Seller performance report output
+What's Covered
+Schema — 8 tables, foreign keys, constraints, ENUM, GENERATED columns
+30 Queries — Basic → JOINs → Aggregates → Subqueries → Window Functions
+2 Views — vw_order_summary, vw_product_performance
+1 Stored Procedure — GetCustomerOrders(customer_id)
+1 Trigger — Auto stock reduction on order insert
